@@ -1,0 +1,13 @@
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cardActions {
+  justify-content: center;
+}
+
+.card {
+  padding: 16px;
+}

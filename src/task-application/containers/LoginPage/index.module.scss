@@ -1,0 +1,36 @@
+.centeredDiv {
+  :global {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: azure;
+  }
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.loginText {
+  font-size: 20px;
+}
+
+.cardActions {
+  justify-content: center;
+}
+
+.secondCardContent {
+  display: flex;
+  justify-content: center;
+}
+
+.registerLink {
+  margin-left: 4px;
+  text-decoration: underline;
+  cursor: pointer;
+}
